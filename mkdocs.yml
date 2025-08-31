@@ -22,4 +22,15 @@ theme:
         name: Light mode
       primary: deep orange
       accent: deep orange
-  
+
+markdown_extensions:
+  - pymdownx.details
+
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/noah-rosenkj%C3%A6r/
+    - icon: fontawesome/brands/github
+      link: https://github.com/NoahRosenkjaer

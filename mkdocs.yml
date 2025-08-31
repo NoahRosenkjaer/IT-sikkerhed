@@ -3,7 +3,7 @@ site_url: https://mydomain.org/mysite
 theme:
   name: material
   font:
-    text: Merriweather Sans
+    text: JetBrains Mono #Merriweather Sans
   
   palette: 
     

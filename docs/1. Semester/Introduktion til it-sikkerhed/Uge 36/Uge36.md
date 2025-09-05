@@ -1,6 +1,6 @@
 # Introduktion til faget og opsætning af værktøjer
 
-??? note "Læringsmål"
+!!! note "Læringsmål"
     Overordnede læringsmål fra studie ordningen
     
     Den studerende har viden om og forståelse for:
@@ -19,7 +19,7 @@
     - Den studerende har viden om virtuelle maskiner
     - Den studerende har viden om VPN opsætning
 
-??? note "Praktiske mål"
+!!! note "Praktiske mål"
 
     - Spørgeskema om forudsætninger udfyldt
     - Virtualbox installeret
@@ -27,7 +27,7 @@
     - Alle studerende har forbindelse til TryHackMe via Kali/VPN
     - THM Linux fundamentals part 1+2+3 gennemført
 
-??? note "Forberedelse"
+!!! note "Forberedelse"
     Læs lektionsplanen og øvelser
 
     Læs kapitel 1 – it-kriminalitet og trusler fra cyberspace, i “IT Sikkerhed i praksis”
@@ -36,7 +36,7 @@
 
 ## Opgave - Studieordning og læringsmål
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     1. Dan dig et overblik over hvad der står i "[Studieordning National](https://esdhweb.ucl.dk/D22-1980440.pdf)", hvad indeholder den og hvad står under de forskellige sektioner. Noter de spørgsmål du har til den nationale studieordning. 10 minutter
     2. Dan dig et overblik over hvad der står i "[Studieordning Institutionel del 2022](https://esdhweb.ucl.dk/D25-2974166.pdf) (først gældende fra 1.feb)", hvad indeholder den og hvad står under de forskellige sektioner. Noter de spørgsmål du har til den Institutionel del af studieordningen. 10 minutter
     3. Læs læringsmålene for "Introduktion til IT Sikkerhed" i studieordningen - Noter de spørgsmål du har til læringsmålene. 10 minutter
@@ -51,7 +51,7 @@ Fremgangsmåde:
 
 ## Opgave - Kali Linux virtuel maskine i Virtualbox
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     1. Download Virtualbox [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
     2. Installer Virtualbox [https://www.virtualbox.org/manual/UserManual.html#intro-installing](https://www.virtualbox.org/manual/UserManual.html#intro-installing)
     3. Download Kali Linux til Virtualbox [https://www.kali.org/get-kali/#kali-virtual-machines](https://www.kali.org/get-kali/#kali-virtual-machines)
@@ -71,7 +71,7 @@ Fremgangsmåde:
 
 ## Opgave - TryHackMe
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     1. Opret en konto på [https://tryhackme.com/](https://tryhackme.com/) - det anbefales at bruge din skole email fordi du kan få rabat [https://help.tryhackme.com/en/articles/6494960-student-discount](https://help.tryhackme.com/en/articles/6494960-student-discount).
     2. Start din Kali Linux VM, hvis du ikke har en så følg Øvelse 24 - Kali Linux virtuel maskine i Virtualbox
     3. Følg guiden fra THM (kræver at du er logget på THM) [https://tryhackme.com/access?o=vpn](https://tryhackme.com/access?o=vpn)

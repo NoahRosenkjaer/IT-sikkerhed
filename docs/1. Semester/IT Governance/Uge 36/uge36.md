@@ -1,6 +1,6 @@
 # Hvad er IT-Governance?
 
-??? note "Læringsmål"
+!!! note "Læringsmål"
 
     **Overordnede læringsmål fra studie ordningen**
 
@@ -22,12 +22,12 @@
 
     - Den studerende kan forklare hvad it-governance er
 
-??? note "Forberedelse"
+!!! note "Forberedelse"
     Ingen forberedelse
 
 ## Opgave - Fagets læringsmål
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     **Information**
 
@@ -51,7 +51,7 @@ Vi snakkede sammen, og der var god forståelse for de forskellige læringsmål. 
 
 ## Opave - Organisationsforståelse
 
-??? note "Opgave beksrivelse"
+!!! note "Opgave beksrivelse"
 
     **Information**
 
@@ -100,7 +100,7 @@ Og fandt frem til Motren Rosted Vang som er ansvarlig for IT sikkerhed i organis
 
 ## Opave - Hvad er IT-Governance?
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     1. Undersøg, hvad ordet Governance betyder oversat til dansk.
     2. I jeres gruppe, find kilder på internettet, der definerer hvad IT-Governance er.
@@ -115,7 +115,7 @@ Og fandt frem til Motren Rosted Vang som er ansvarlig for IT sikkerhed i organis
 
 ## Opave - Grundlæggende cyberforsvar
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     1. Hent CFCS vejledningen [Cyberforsvar der virker](https://www.cfcs.dk/da/forebyggelse/vejledninger/cyberforsvar-der-virker/)
     2. Læs vejledningen og besvar følgende spørgsmål skriftligt:

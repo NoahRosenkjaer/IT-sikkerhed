@@ -3,7 +3,9 @@ site_url: https://mydomain.org/mysite
 theme:
   name: material
   font:
-    text: JetBrains Mono #Merriweather Sans
+    text: Lexend #JetBrains Mono #Merriweather Sans
+    code: JetBrains Mono
+
   
   palette: 
     
@@ -11,7 +13,7 @@ theme:
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Dark mode
+        name: change to light mode
       primary: deep orange
       accent: deep orange
 
@@ -19,12 +21,17 @@ theme:
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
+        name: Change to dark mode
       primary: deep orange
       accent: deep orange
 
 markdown_extensions:
   - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+
+  - pymdownx.superfences
+  - admonition
 
 extra:
   generator: false

@@ -1,6 +1,6 @@
 # Introduktion til faget
 
-??? note "Praktiske mål"
+!!! note "Praktiske mål"
     - At alle studerende har installeret Burp suite
     - At alle studerende har installeret Postman
     - At alle studerende har installeret Docker
@@ -8,7 +8,7 @@
     - At alle studerende er introduceret til OWASP Top 10
     - At alle studerende er introduceret til ASVS.
 
-??? note "Læringsmål"
+!!! note "Læringsmål"
     Viden
     
     - Den studerende har viden om typiske trusler og sårbarheder forbundet med webapplikationer og deres årsager.
@@ -19,7 +19,7 @@
     
     - Den studerende kan strukturere egen faglig udvikling inden for området og følge med i nye teknologier og trusselsbilleder.
 
-??? note "Forberedelse"
+!!! note "Forberedelse"
     - Læs kapitel 1 i bogen "Hacking APIs"
     - Læs kapitel 2 i bogen “Hacking APIs”
 
@@ -48,7 +48,7 @@ Portene hver applikation bruger kan du se i readme filen
 ## OPGAVE - OWASP Top 10: Injection Sårbarheder
 ### 1. forstå Injection Sårbarheder
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Gå til [OWASP Top 10 Injection](https://owasp.org/Top10/A03_2021-Injection/#list-of-mapped-cwes) og læs beskrivelsen af injection-sårbarheder.
     Forklar med dine egne ord, hvad en injection-sårbarhed er, og hvordan den typisk kan udnyttes i webapplikationer. Giv eksempler på forskellige typer af injection-angreb, såsom SQL injection og command injection.
 
@@ -62,7 +62,7 @@ Command injection er også en stor sårbarhed, da en applikation sårbar over fo
 
 ### 2. Forståelse af Positive Server-Side Input Validation
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Læs afsnittet How to Prevent på OWASP-siden om injection.
     Forklar, hvad der menes med "positive server-side input validation" som en metode til at forhindre injection-angreb. Hvorfor er denne metode effektiv, og hvordan adskiller den sig fra "negative validation" (sortlisting)?
 
@@ -72,7 +72,7 @@ Når noget er server-side så er det noget der sker efter dataen er sendt, og de
 
 ### 3. CWE-20 - Improper Input Validation
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Find afsnittet List of Mapped CWEs på OWASP injection-siden og læs om CWE-20.
     Beskriv, hvad CWE-20 "Improper Input Validation" dækker over. Hvorfor er korrekt inputvalidering vigtig for applikationssikkerhed?
 
@@ -81,7 +81,7 @@ Det handler om hvordan input data skal håndteres, og det er vigtigt da svag ell
 ## Opgave - Insecure Design
 ### 1. Requirements and Resource Management
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Læs afsnittet [Requirements and Resource Management](https://owasp.org/Top10/A04_2021-Insecure_Design/#requirements-and-resource-management) på OWASP-siden.
     Hvad beskrives der overordnet i dette afsnit, og kender du en tilgang, som dækker dele af det beskrevne?
 
@@ -90,14 +90,14 @@ Det beskriver at man skal snakke med det business der vil have lavet en applikat
 
 ### 2. Forståelse af Secure Design
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Hvad menes der med "Secure design"? Forklar begrebet, og hvordan det adskiller sig fra andre tilgange til sikkerhed i softwareudvikling.
 
 Secure design er methodologi der overordnet handler om at producere kode med sikkerhed i tankerne, da det ofte er en eftertanke.
 
 ### 3. Modellering i Secure Design
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     I afsnittet Secure Design bliver der nævnt en type modellering, som bør indgå i en udviklingsproces.
     Hvilken type modellering er der tale om, og hvorfor er den vigtig for sikker softwareudvikling?
 
@@ -106,7 +106,7 @@ Det er Threat modeling, hvilket er en metode der beskriver hvordan man kan ident
 ## Opgave - ASVS
 ### 1. Input validering
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Kig [OWASP ASVS 5.0.0](https://github.com/OWASP/ASVS/tree/v5.0.0#latest-stable-version---500)
     I hvilket afsnit kan man finde et overblik over, hvad man bør sikre sig i forhold til inputvalidering?
 
@@ -114,7 +114,7 @@ V2.2 Input Validation
 
 ### 2. Bilag D(Appendix D): Recommendations
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Hvad beskrives der i Bilag D? Giv en kort opsummering af de vigtigste punkter.
 
 Det handler om ting man kunne gøre for at gøre sin web applikation mere sikker. Punkterne er ikke krav, men strækt anbefalet.
@@ -128,7 +128,7 @@ Her er nogle af det vigtigste:
 
 ### 3. Niveauer i ASVS
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Hvor mange niveauer er kravene i ASVS opdelt i ? Og hvorfor er de opdelt i flere niveauer?.
 
 Den er delt op i 3 neveauer. Fordi ikke alle applikationer er ens, og alle har forskellige krav.
@@ -138,14 +138,14 @@ Den er delt op i 3 neveauer. Fordi ikke alle applikationer er ens, og alle har f
 ### Hvad er Request for Comments?
 ### 1. Introduktion til RFC'er
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
     Læs introduktionen til RFC'er på RFC Editorens hjemmeside. Beskriv med jeres egne ord, hvad en RFC er, og hvorfor den er vigtig for internettet.
 
 Kort sagt er Request for Comments (RFC) officielle dokumenter, der definerer internetstandarder, protokoller og teknologier. De er vigtige da de bestemmer hvordan kommunikation forgår mellem computere, da det setter standarden.
 
 ### 2. HTTP/1.1: Semantics and Content (RFC 7231)
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     - Gå til [RFC 7231 - HTTP/1.1: Semantics and Content](https://datatracker.ietf.org/doc/html/rfc7231).
     - Beskriv kort, hvad RFC 7231 omhandler. Hvilke HTTP-metoder er defineret i RFC 7231, og hvad er formålet med hver metode? Hvordan er metoderne struktureret i dokumentet, og hvordan relaterer de sig til HTTP-standarden?
@@ -165,7 +165,7 @@ RFC 7231 beskriver Hypertext Transfer Protocol (HTTP/1.1)
 
 ### 3. Transport Layer Security (TLS) Protocol Version 1.3 (RFC 8446)
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     - Gå til [RFC 8446 - TLS Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446).
     - Beskriv kort, hvad RFC 8446 omhandler. Hvad er TLS 1.3, og hvilke hovedkomponenter og funktioner beskrives i dokumentet? Hvordan er dokumentet struktureret, og hvilke sektioner fokuserer på de vigtigste aspekter af TLS 1.3?
@@ -177,7 +177,7 @@ RFC 8446 beskriver The Transport Layer Security (TLS) version 1.3 af protokollen
 
 ### 4. OAuth 2.0 Authorization Framework (RFC 6749)
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     - Gå til [RFC 6749 - OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749).
     - Beskriv kort, hvad RFC 6749 omhandler. Hvad er hovedformålet med OAuth 2.0, og hvilke roller og komponenter defineres i dokumentet? Hvordan beskriver dokumentet de forskellige autorisationsmetoder og -flows, og hvordan er de struktureret?
@@ -190,7 +190,7 @@ Der er tale om Client Registration, da man være registreret ved begge applikati
 
 ### 5. JSON Web Token (JWT) (RFC 7519)
 
-??? note "Opgave beskrivelse"
+!!! note "Opgave beskrivelse"
 
     - Gå til [RFC 7519 - JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519).
     - Beskriv kort, hvad RFC 7519 omhandler. Hvad er JSON Web Tokens (JWT), og hvilke elementer består de af ifølge dokumentet? Hvordan beskriver dokumentet strukturen og formatet af JWT'er, og hvilke anvendelsesområder nævnes?

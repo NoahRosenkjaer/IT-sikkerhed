@@ -23,6 +23,54 @@
     - Læs kapitel 1 i bogen "Hacking APIs"
     - Læs kapitel 2 i bogen “Hacking APIs”
 
+??? note "Reflektions punkter efter forberedelsen"
+
+    **_Kapitel 1:_**
+
+    - Hvordan er et HTTP request udformet?
+        - Den består af:
+            - Methods
+            - Resources
+            - Protocol + protocol version
+            - Headers
+            - Message body
+    - Hvad er en HTTP metode(method)?
+        - En methods er det der viser hvad en given request vil gøre. De kan blandt andet få, fjerne, ændre, sende information til web aplicationen.
+    - Hvordan er et HTTP response udformet?
+        - De minder om en request, men har ikke resources eller protocol og version. Dog har de status koder der viser hvordan web aplicationen har håndteret en request.
+        - Den har message body alt efter hvilken method var brugt i requesten.
+    - Hvad er HTTP status koder?
+        - De viser hvordan web aplicationen har håndteret en request.
+            - 100: Information-based responses
+            - 200: Successful responses
+            - 300: Redirects
+            - 400: Client errors
+            - 500: Server errors
+    - Hvad er en API?
+        - En API er en teknologi der gør det muligt at hente data fra andre stedet på nettet. Hvis jeg vil lave en vejr web app så kan jeg bare bruge DMI's API til at hente temperaturen, så jeg selv kan fokusere på andre dele af min egen app.
+    - hvad er forskellen på stateful og stateless?
+        - Stateful: Det er når en web application husker hvad min bruger har lavet, så den husker at jeg har sat 4 ting i min vogn på en shopping app. hvis jeg logger ind på en anden enhed.
+        - Stateless: Her husker den ikke på samme måde, man kan de samme ting, men man skal sende alt det data serveren skal bruge for at authenticate en. Eller husker den det ikke.
+
+    _**kapitel 2:**_
+
+    - Hvad er et RESTful API? (REST API)?
+        - Det er en API som bruger CRUD metoderne og overholder API naming conventions, tokens for authorization.
+    - Hvad brugers headers til?
+        - Authorization
+            - Til at bevise at du er en bruger.
+        - Content type
+            - Til at bestemme hvliken type dataen kan/vil være.
+            - Det kan være JSON, YAML, eller XML
+    - Hvad bruges JSON til?
+        - TIl at overføre data i en bestemt struktur som er let læsligt af mennesker, såvel som maskiner.
+    - Hvad er basic authentication?
+        - Det er username/id og et password.
+    - Hvad er en API nøgle?
+        - Det er en nøgle som er auto generated af API holderen. Og den skal sende med hverd API request.
+    - Hvad er en JWT token?
+        - JWT er en type af API nøgle. og den sender man i Authorization headeren i ens request.
+
 ## Installation af værktøjer
 
 1. Installer Burp suite community edition: Install burp suite

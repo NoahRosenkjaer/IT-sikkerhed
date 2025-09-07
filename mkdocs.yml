@@ -1,9 +1,9 @@
 site_name: IT sikkerhed
-site_url: https://mydomain.org/mysite
+site_url: https://noahrosenkjaer.github.io/
 theme:
   name: material
   font:
-    text: Lexend #JetBrains Mono #Merriweather Sans
+    text: Lexend #JetBrains Mono
     code: JetBrains Mono
 
   
@@ -14,22 +14,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: change to light mode
-      primary: deep orange
-      accent: deep orange
+      primary: black
 
       # Light mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Change to dark mode
-      primary: deep orange
-      accent: deep orange
+      primary: grey
 
 markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight:
       linenums: true
-
   - pymdownx.superfences
   - admonition
 

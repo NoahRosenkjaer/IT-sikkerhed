@@ -124,28 +124,42 @@ Og fandt frem til Motren Rosted Vang som er ansvarlig for IT sikkerhed i organis
         2. Hvilke værktøjer kan ledelsen benytte sig af?
         3. Hvorfor skal ledelsen stille spørgsmål til sig selv?
         4. Hvorfor skal ledelsen still spørgsmål til sin organisation?
-        5.  Hvilke af de 10 tekniske tiltag ville i starte med, hvis skulle implementere et Cyberforsvar? og hvorfor?
+        5. Hvilke af de 10 tekniske tiltag ville i starte med, hvis skulle implementere et Cyberforsvar? og hvorfor?
         6. Hvilke standarder og best practices omtales der i vejledningen?
         7. Er tekniske tiltag vigtigere en adfærdstiltag?
         8. Vil en virksomhed være sikret mod trusselsaktører (ondsindede hackere/aktører) hvis de følger vejledningen?
         9. Hvilke faser indgår der i krisehåndteringscyklussen?
         10. Hvordan kan en virksomhed afprøve deres cyberforsvar?
 
-1. “Ledelsen skal styre cyber- og informationssikkerheden ved løbende at støtte, prioritere og følge op på målsætninger og strategier efter samme principper som inden for f.eks. økonomi og HR”
-2. De gode spørgsmål er vigtige værktøjer
-    1. Ved vi, hvilke data og informationer der understøtter vores forretningskritiske aktiviteter?
-    2. Hvilke konsekvenser har det for forretningen, hvis data og informationer, der understøtter vores forretningskritiske aktiviteter, ikke er tilgængelige, ændres eller lækkes?
-    3. Er vi overbevist om, at vores informationer er tilstrækkeligt beskyttet i forhold til kendte trusler?
-    4. Har vi i topledelsen defineret målsætninger, strategier eller politikker på cyber- og informationssikkerhedsområdet, som vi aktivt prioriterer og støtter?
-    5. Har vi en sikkerhedsorganisation, der er forankret i topledelsen?
-    6. Modtager vi løbende rapportering om status på strategier og målsætninger inden for cyber- og informationssikkerhedsområdet?
-    7. Har topledelsen taget stilling til myndighedens eller virksomhedens risikoappetit?
-    8. Har vi gjort os klart, at topledelsen selv er et oplagt mål for cyberangreb (eksempelvis CEO-fraud, og spear-phishing)?
-3. spørgsmålene fungerer som værktøj for ledelsens styringen af cyber- og informationssikkerhedsområdet
-4. Svarene på spørgsmålene vil være med til at synliggøre for ledelsen, hvis der er områder i organisationen der trænger til at blive prioriteret.
-5. Segmenter netværket (nummer 2) Så har man begrænset for hvem der kan have adgang også kan man begynde med at implementer de andre tiltag
-6. ISO 27001, NIST Cybersecurity Framework, SANS og CIS 18
-7. Nej. Da man skal vide at der er nogle ting der ikke må gøres
-8. De er mere sikre
-9. Reetablering, Isolering og Eliminering
-10. Pen-testing
+1. Hvad er ledelsens rolle?
+    - “Ledelsen skal styre cyber- og informationssikkerheden ved løbende at støtte, prioritere og følge op på målsætninger og strategier efter samme principper som inden for f.eks. økonomi og HR”
+2. Hvilke værktøjer kan ledelsen benytte sig af?
+    
+    De gode spørgsmål er vigtige værktøjer
+    
+    - Ved vi, hvilke data og informationer der understøtter vores forretningskritiske aktiviteter?
+    - Hvilke konsekvenser har det for forretningen, hvis data og informationer, der understøtter vores forretningskritiske aktiviteter, ikke er tilgængelige, ændres eller lækkes?
+    - Er vi overbevist om, at vores informationer er tilstrækkeligt beskyttet i forhold til kendte trusler?
+    - Har vi i topledelsen defineret målsætninger, strategier eller politikker på cyber- og informationssikkerhedsområdet, som vi aktivt prioriterer og støtter?
+    - Har vi en sikkerhedsorganisation, der er forankret i topledelsen?
+    - Modtager vi løbende rapportering om status på strategier og målsætninger inden for cyber- og informationssikkerhedsområdet?
+    - Har topledelsen taget stilling til myndighedens eller virksomhedens risikoappetit?
+    - Har vi gjort os klart, at topledelsen selv er et oplagt mål for cyberangreb (eksempelvis CEO-fraud, og spear-phishing)?
+
+3. Hvorfor skal ledelsen stille spørgsmål til sig selv?
+    - spørgsmålene fungerer som værktøj for ledelsens styringen af cyber- og informationssikkerhedsområdet
+4. Hvorfor skal ledelsen still spørgsmål til sin organisation?
+    - Svarene på spørgsmålene vil være med til at synliggøre for ledelsen, hvis der er områder i organisationen der trænger til at blive prioriteret.
+5. Hvilke af de 10 tekniske tiltag ville i starte med, hvis skulle implementere et Cyberforsvar? og hvorfor?
+    - Segmenter netværket (nummer 2) Så har man begrænset for hvem der kan have adgang også kan man begynde med at implementer de andre tiltag
+6. Hvilke standarder og best practices omtales der i vejledningen?
+    - ISO 27001, NIST Cybersecurity Framework, SANS og CIS 18
+7. Er tekniske tiltag vigtigere en adfærdstiltag?
+    - Nej. Da man skal vide at der er nogle ting der ikke må gøres
+8. Vil en virksomhed være sikret mod trusselsaktører (ondsindede hackere/aktører) hvis de følger vejledningen?
+    - De er mere sikre
+9. Hvilke faser indgår der i krisehåndteringscyklussen?
+    - Reetablering, Isolering og Eliminering
+10. Hvordan kan en virksomhed afprøve deres cyberforsvar?
+    - Pen-testing
+    - Test, phising test 

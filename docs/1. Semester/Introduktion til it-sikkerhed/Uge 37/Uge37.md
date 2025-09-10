@@ -50,3 +50,34 @@
     - Hvilke(n) type hacker angreb vil være mest aktuelt at tage forholdsregler imod? (DDos, ransomware, etc.)
     - Hvilke forholdsregler kan i tage for at opretholde CIA i jeres scenarie (kryptering, adgangskontrol, hashing, logging etc.)
     - Hver gruppe fremlægger det de er kommet frem til og alle giver feedback.
+
+
+
+- Vælg et af følgende scenarier som i vil vurdere i forhold til CIA:
+
+    - Vi har valgt en lægeklinik (virksomhed)
+
+- Vurder, prioitér scenariet i forhold til CIA modellen. Noter og begrund jeres valg og overvejelser. Hvilken del af CIA mener i er mest vigtig.
+    1. Fortrolighed, da persondata er meget følsomt går ind under lovgivninger som GDPR. Hvis en hacker fik adgang til en persons persondata kunne de afpresse, begå identitets tyveri, eller sælge det videre. læækning af patient data kan skade tilliden mellem patien og læge/lægehus.
+    2. Integritet er også mgete vigtig da patient jurnaler ikke må ændres af uauthentiseret personale eller andre.
+    3. Tilgengelighed da det er vigtigt for læger at have dine data tilgengelig når de skal hjælpe dig.
+- Hvilke(n) type hacker angreb vil være mest aktuelt at tage forholdsregler imod? (DDos, ransomware, etc.)
+    - Phising
+        - Falske mails med farlige links, så man kunne downloade malware/ransomware, eller links til info-stealers til login informationer.
+    - Ransomware, dobbelt afpressning
+        - Dobbelt afpressning er når en hakcer vil have penge for at give dekrypterings nøglen, hvorefter de afpresser igen for ikke at lække
+    - Insider threat
+        - Nogen som arbejder for lægeklinikken, og kommer til at lække fortroligt information
+- Hvilke forholdsregler kan i tage for at opretholde CIA i jeres scenarie (kryptering, adgangskontrol, hashing, logging etc.)
+    - 0 trust
+        - Kan mindske inderder threat
+    - Multi factor authentication
+        - Hvis passwords skulle blive lækket
+    - Logging
+        - Så man kan se hvad der er sket.
+    - Backups
+        - Så man kan starte forfra hvis man skulle blive ramt af ransomware
+    - Kryptering
+        - For at holde fortroligheden
+    - Medarbejder security awareness træning
+        - For at mindske change for at medarbejdere trykker på farlige link og bliver phishet.

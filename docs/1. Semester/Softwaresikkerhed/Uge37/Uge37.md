@@ -192,7 +192,7 @@ Arbejdsgiver sender lønseddel til borger.dk
         - Denne er nummer to da den også er megte vigtig, men man kan godt overleve hvis borger.dk bliver DDOS'et da man også kan hente feriepenge efter sin ferie. Så man kan vente til borger.dk er oppe igen.
     3. Fortrolighed
         - Denne er også meget vigtig, men det er ikke verdens undergang hvis fortroligheden af antallet af feriepenge man kan få udbetalt bliver brudt.
-        
+
 3. Påtegn misbrugstilfælde på diagrammet løbende.
 
     - Her er et misbrugstilfældediagram:
@@ -227,7 +227,7 @@ Her er refleksionspunkter over tutorialen:
 **Scaffold a controller**
 
 - Tilføj Microsoft-biblioteker via CLI til autogenerering af Controller.
-- 
+
 
 **Update the PostTodoItem create method**
 

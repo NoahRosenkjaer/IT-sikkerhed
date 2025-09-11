@@ -224,20 +224,6 @@ Her er refleksionspunkter over tutorialen:
 - Overvej hvordan objekter kan oprettes uden konstruktør eller andre begrænsninger.
     - Det er fordi de i TodoItems.cs er sat til at være public.
 
-**Scaffold a controller**
-
-- Tilføj Microsoft-biblioteker via CLI til autogenerering af Controller.
-
-
-**Update the PostTodoItem create method**
-
-- Tilpas en metode til at håndtere HTTP POST-requests og oprette data.
-
-**Test PostTodoItem**
-
-- Test API’et ved at ændre JSON-tekst via “Try it out”-funktionen.
-- Tutorialen kan være uklar her, men husk at klikke på “Try it out”.
-
 **Controllerens rolle og ansvar**
 
 - Hvad er controller-klassens funktion i applikationen?

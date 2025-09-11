@@ -6,7 +6,9 @@ theme:
     text: Lexend #JetBrains Mono
     code: JetBrains Mono
 
-  
+  features:
+  - content.code.copy
+
   palette: 
     
     # Dark mode

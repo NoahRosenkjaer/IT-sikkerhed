@@ -2,6 +2,8 @@ site_name: IT sikkerhed
 site_url: https://noahrosenkjaer.github.io/
 theme:
   name: material
+  logo: images/ITsikkerhedLogoRoundCompressed.png
+  favicon: images/ITsikkerhedLogoRoundCompressed.png
   font:
     text: Lexend #JetBrains Mono
     code: JetBrains Mono
@@ -10,7 +12,7 @@ theme:
   - content.code.copy
 
   palette: 
-    
+
     # Dark mode
     - scheme: slate
       toggle:

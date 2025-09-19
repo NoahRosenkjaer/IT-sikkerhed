@@ -11,21 +11,10 @@ theme:
   features:
   - content.code.copy
 
-  palette: 
-
-    # Dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: change to light mode
-      primary: black
-
-      # Light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Change to dark mode
-      primary: grey
+  # Dark mode
+  palette:
+    scheme: slate
+    primary: black
 
 markdown_extensions:
   - pymdownx.details

@@ -1,23 +1,45 @@
 # CIA modellen | CIA Triad
 
-CIA modellen/triad står for fortrolighed(Confidentiality), integritet(Integrity), og tilgængelighed(Availability), som er de tre kerne principper i IT sikkerhed. Organisationer bruger denne model til at sørge for at deres data og information, forbliver fortroligt, og kun godkendte kan få adgang, at sørge for at data holder sin integritet og ikke bliver ændret eller slettet, at data altid er Tilgængeligt.
-Alle cyberangreb falder ind under en af de her kategori. 
+CIA modellen/triad står for **fortrolighed (Confidentiality)**, **integritet (Integrity)** og **tilgængelighed (Availability)**, som er de tre kerneprincipper i IT-sikkerhed. Organisationer bruger denne model til at sørge for, at deres data og information forbliver fortrolige og kun tilgængelige for godkendte personer, at data bevarer sin integritet og ikke bliver ændret eller slettet, samt at data altid er tilgængelige.
 
-![alt text](image.png)
+Alle cyberangreb falder ind under en af disse kategorier.
 
-**Fortrolighed(Confidentiality)**
+![CIA_modellen](image.png)
 
-Denne katagori handler om fortrolig information eller data. Dette kan være forretningshemmeligheder, økonomisk data, personfølsomt data og meget andet. Det er information man gerne vil holde hemmeligt.
+## C Fortrolighed (Confidentiality)
 
-Der er brud på fortroligheden af information, hvis en hacker eller andre på en eller anden måde får adgang til information som de ikke burde have adgang til.
+Fortrolighed handler om, at information kun er kendt af bestemte personer. Det kan være forretningshemmeligheder, økonomiske data, personfølsomme oplysninger og meget andet – altså information, man ønsker at holde hemmelig.
 
-**Integritet(Integrity)**
+Der er brud på fortroligheden af information, hvis en hacker eller andre får adgang til data, de ikke burde have adgang til.
 
-Denne kategori handler om at opretholde integriteten af information, og sørge for at data og information ikke bliver ændret eller slettet. 
+Måder at opnå fortrolighed på:
 
-Data kan blive ændret eller slettet ved fx. nedbrud, et hacker angreb eller menneske fejl.
+- **Kryptering**: Data krypteres, så de kun kan læses af den rette modtager, der dekrypterer dem. Hvis data opsnappes, er de ubrugelige uden nøglen.
 
+- **Adgangsbegrænsning**: Medarbejdere får kun adgang til de data, de behøver for at udføre deres arbejde. Fx skal marketing ikke have adgang til regnskabs- eller IT-afdelingens data.
 
-**Tilgængelighed(Availability)**
+- **To-faktor-autentificering (2FA)**: En ekstra sikkerhedsforanstaltning, der sikrer, at kun den rette bruger kan få adgang.
 
-Tilgængelighed handler om at holde systemer kørende. Vi er meget afhængige af at data altid er tilgængeligt til os, både for brugere og for organisationer. Hvis en stor webshop går ned, kan de potentielt miste milioner, eller hvis din bank app går ned bliver det meget svært at betale for ting.
+## I Integritet (Integrity)
+
+Integritet handler om at sikre, at data og information ikke bliver ændret eller slettet – hverken ved nedbrud, hackerangreb eller menneskelige fejl. Vi kan ikke have data, der går tabt eller bliver manipuleret, da det kan få store konsekvenser.
+
+Måder at opnå integritet på:
+
+- **Hashing**: Bruges til at kontrollere integriteten af modtagne data. Afsenderen hasher dataene og sender hashen med. Modtageren kan så kontrollere, om dataene stemmer overens.
+
+- **Digitale signaturer**: Kombinerer hashing med asymmetrisk kryptering, så vi kan verificere både dataintegritet og afsenderens identitet.
+
+- **Certifikater**: Giver ekstra sikkerhed ved dataoverførsel mellem enheder.
+
+## A Tilgængelighed (Availability)
+
+Tilgængelighed handler om at holde systemer og data kørende og tilgængelige for både brugere og organisationer. Vi er meget afhængige af, at data altid er tilgængeligt. Hvis en webshop går ned, kan de miste millioner, og hvis en bank-app ikke virker, kan det være umuligt at betale for varer og tjenester.
+
+Måder at sikre tilgængelighed på:
+
+- *Redundans*: Opbygge systemer med backup og alternativer, så de altid er tilgængelige.
+
+- **Fejltolerance**: Systemer designes til at kunne fortsætte, selv når fejl opstår.
+
+- **Patching**: Lukker sikkerhedshuller og sikrer stabilitet, så systemerne ikke kan udnyttes til at skabe nedbrud.

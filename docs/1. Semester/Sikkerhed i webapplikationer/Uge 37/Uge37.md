@@ -196,7 +196,7 @@ Resultatet bliver:
     Review the standard and consider:
 
     - Which section(s) cover Authorization?
-        - V6 Authentication
+        - V8 Authorization
     - Are BOLA/IDOR vulnerabilities mentioned directly?
         - Yes
         - Verify that the application ensures that data‑specific access is restricted to consumers with explicit permissions to specific data items to mitigate insecure direct object reference (IDOR) and broken object level

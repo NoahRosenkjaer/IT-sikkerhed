@@ -462,3 +462,103 @@ MONGO_DB_USER=crapi
 MONGO_DB_PASSWORD=crapi
 MONGO_DB_NAME=crapi
 ```
+
+## Opgave - Find BOLA i juice shop
+
+Ved at kigge lidt rundt på web siden, og kigge på de http requests som bliver lavet, så er der en jeg bider mærke i. Når man kigger i sin kurv, så bliver der lavet en request til `GET /rest/basket/6`
+Jeg vil gerne teste om det er muligt med en anden bruger at kigge i `basket/6`. Efter at starte min AB-test ved at lave en user B, så kan jeg se at user B har fået `basket/7` som er tom og har requesten her:
+![alt text](image-2.png)
+
+Ved at ændre det brugte path i denne request til `GET /rest/basket/6` kan man som user B se user A's kurv.
+
+Hele responce body kan ses her:
+
+```json linenums="0"
+{
+    "status": "success",
+    "data": {
+        "id": 6,
+        "coupon": null,
+        "UserId": 23,
+        "createdAt": "2025-09-29T08:17:14.426Z",
+        "updatedAt": "2025-09-29T08:17:14.426Z",
+        "Products": [{
+            "id": 1,
+            "name": "Apple Juice (1000ml)",
+            "description": "The all-time classic.",
+            "price": 1.99,
+            "deluxePrice": 0.99,
+            "image": "apple_juice.jpg",
+            "createdAt": "2025-09-29T07:30:48.591Z",
+            "updatedAt": "2025-09-29T07:30:48.591Z",
+            "deletedAt": null,
+            "BasketItem": {
+                "ProductId": 1,
+                "BasketId": 6,
+                "id": 9,
+                "quantity": 1,
+                "createdAt": "2025-09-29T08:17:17.004Z",
+                "updatedAt": "2025-09-29T08:17:17.004Z"
+            }
+        }]
+    }
+}
+```
+
+Dette kan nemt genskabes ved at ændre i det nummer som er efter basket.
+
+Man skal dog være authroized, med en token. ellers får man en `401 Unauthorized`, med denne responce body:
+
+```json linenums="0"
+{
+    "error": {
+        "message": "No Authorization header was found",
+        "name": "UnauthorizedError",
+        "code": "credentials_required",
+        "status": 401,
+        "inner": {
+            "message": "No Authorization header was found"
+        }
+    }
+}
+```
+
+## Opgave - Find EDE i juice shop
+
+For at finde en EDE prøver jeg bare at kigge rundt på siden og sammentidig kigge på min HTTP history i Caido.
+
+Efter at kigge lidt rundt fandt jeg et endpoint som jeg mener har en EDE sårbarhed: `/rest/memories/`.
+
+Når man åbner photowall siden, laver den et API kald til `/rest/memories/`, det man kan se på siden er billeder som andre brugere har uploaded til siden. Men hvis man kigger på selve den API request, så kan man også se email og password (Dog et hash af et password) for brugeren der har uploaded det billede. her er hele responce body:
+
+```json linenums="0"
+-- snippet --
+{
+    "UserId": 4,
+    "id": 2,
+    "caption": "Magn(et)ificent!",
+    "imagePath": "assets/public/images/uploads/magn(et)ificent!-1571814229653.jpg",
+    "createdAt": "2025-09-29T07:30:52.951Z",
+    "updatedAt": "2025-09-29T07:30:52.951Z",
+    "User": {
+        "id": 4,
+        "username": "bkimminich",
+        "email": "bjoern.kimminich@gmail.com",
+        "password": "6edd9d726cbdc873c539e41ae8757b8c",
+        "role": "admin",
+        "deluxeToken": "",
+        "lastLoginIp": "",
+        "profileImage": "assets/public/images/uploads/defaultAdmin.png",
+        "totpSecret": "",
+        "isActive": true,
+        "createdAt": "2025-09-29T07:30:42.807Z",
+        "updatedAt": "2025-09-29T07:30:42.807Z",
+        "deletedAt": null
+        }
+    },
+-- snippet --
+```
+
+Her kan det ses at brugeren `bkimminich` har uploaded et billede. Hans email er `bjoern.kimminich@gmail.com`, hans password er `6edd9d726cbdc873c539e41ae8757b8c` og han er faktisk admin.
+
+Her er der helt klart tale om en EDE sårbarhed.

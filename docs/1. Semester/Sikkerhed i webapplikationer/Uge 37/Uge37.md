@@ -107,7 +107,7 @@
 
 For at gå igennem dette skal man clone [Web Application Security – Introduction Lab Setup](https://github.com/mesn1985/WebApplicationSecurityBasicsLab/tree/main) med git. starte containerne, og åben siden: [http://127.0.0.1:8888/login](http://127.0.0.1:8888/login)
 
-### Under opgave - BOLA Using Object IDs Without Authorization
+### Del opgave - BOLA Using Object IDs Without Authorization
 
 !!! note "Opgave beskrivelse"
 
@@ -152,7 +152,7 @@ Hvis man bruger repeater til at se den responce siden giver, så kan man også s
 
 Her ender man med at få givet user as email.
 
-### Under opgave - Excessive Data Exposure
+### Del opgave - Excessive Data Exposure
 
 !!! note "Opgave beskrivelse"
     
@@ -165,7 +165,7 @@ Jeg fandt Excessive Data Exposure på følgende side:
     - Her bare man requester siden, får man andres email og vehicleid.
 
 
-### Under opgave - Brug resultaterne fra øvelse 1 og 2 til at finde køretøjets placering for en bruger, du ikke selv har oprettet.
+### Del opgave - Brug resultaterne fra øvelse 1 og 2 til at finde køretøjets placering for en bruger, du ikke selv har oprettet.
 
 Når man åbner det forum, kan man fange andres vehicleid.
 
@@ -187,7 +187,7 @@ Resultatet bliver:
     "email":"robot001@example.com"}
 ```
 
-### Under opgave - Explore OWASP Application Security Verification Standard
+### Del opgave - Explore OWASP Application Security Verification Standard
 
 !!! note "Opgave beskrivelse"
 
@@ -217,7 +217,7 @@ authorization (BOLA)
 - What testing strategies for authorization does ASVS refferer?
     - Verify that data requiring authorization is not included in script resource responses, like JavaScript files, to prevent Cross‑Site Script Inclusion (XSSI) attacks.
 
-### Under opgave - Access Other Users’ Mechanic Reports
+### Del opgave - Access Other Users’ Mechanic Reports
 
 !!! note "Opgave beskrivelse"
 

@@ -266,3 +266,34 @@ Har lavet opgaven, det kan ses på biledet her.
     Experiment to see which method gives you the best insight or coverage.
 
 Jeg valgte at bruge Postman til automaatisk at gøre det.
+
+## Opgave - Test cases forsat
+
+!!! note "Opgave beskrivelse"
+
+    - Udvid dine test cases med mere detaljeret og struktureret information.
+    - Få en klassekammerat til at lave et peer review af dine test cases.
+
+Jeg laver en test case på den BOLA jeg fandt i juiceshop i sidste uge. Jeg fik faktisk ikke lavet nogen test case for den opgave, men jeg laver en dybdegående case af den her.
+
+
+#### Test case over BOLA i juiceshop
+- **Opsummering** 
+    - Brugerer kan se andre brugeres kurve
+- **Preconditions** 
+    - Dette kræver en oprettet bruger, og dermed en `Bearer token`
+- **Test steps**
+    1. Opret bruger A og login
+    1. Brug et proxy værktøj som burp til at sniffe http trafik.
+    1. Som bruger A, læg et vilkårlig produkt i kurven.
+    1. Obsaver og noter det API endpoint der bliver kaldet. (fx. `/rest/basket/X`, hvor X er et nummer over 0)
+    1. Opret bruger B og login
+    1. Som bruger B åben den tomme kurv.
+    1. Opfang reqeusten til `/rest/basket/X`.
+    1. Send den til repeateren i burp, og ændre tallet hvor X'et er i eksemplerne.
+    1. Ved at ændre tallet til burgers A's kurv nummer, som noteret tideligere, vil man kunne se bruger A's kurv, med bruger B's Auth Token.
+
+- **Forventet resultat**
+    - Bruger B kan se bruger A's kurv, ved at bruge sin egen `Bearer token`.
+- **Egentligt resultat**
+    - Bruger B kan se bruger A's kurv, ved at bruge sin egen `Bearer token`.

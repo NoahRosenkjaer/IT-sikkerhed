@@ -136,6 +136,7 @@ Her er vores svar på opgaven.
 [DOWNLOAD PDF](Domænemodellering.pdf)
 
 Man kunne tilføje mere modelering med bank konto ejeren.
+
 - CPR nummer (Nu ingår GDPR)
 - Fornavn
 - Muligvis mellemnavn

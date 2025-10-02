@@ -134,3 +134,10 @@ Vi snakkede om `number` gav mening i forhold til hvad den beskriver, som er kund
 Her er vores svar på opgaven. 
 
 [DOWNLOAD PDF](Domænemodellering.pdf)
+
+Man kunne tilføje mere modelering med bank konto ejeren.
+- CPR nummer (Nu ingår GDPR)
+- Fornavn
+- Muligvis mellemnavn
+- Efternavn
+- ID (GDPR og AML regler)

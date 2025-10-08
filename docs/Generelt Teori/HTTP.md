@@ -77,4 +77,4 @@ HTTP er dog ikke sikkert, da alt bliver send i rent tekst, som vi kan se i figur
 
 Svaret på dette er at bruge HTTP med [Transport Layer Security](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/) (TLS)
 
-TLS er en protocol der er lavet til at give brugere privatliv og gøre data sikkert når man kommunikere over internettet. TLS sikre data med to af tre dele af [CIA modellen](CIAModellen.md), ved at holde data fortroligt med [kryptering](kryptering.md), og sørge for at dataen ikke er blevet ændret eller gået tabt.
+TLS er en protocol der er lavet til at give brugere privatliv og gøre data sikkert når man kommunikere over internettet. TLS sikre data med to af tre dele af [CIA modellen](CIAModellen.md), ved at holde data fortroligt med [encryption](Encryption.md), og sørge for at dataen ikke er blevet ændret eller gået tabt.

@@ -399,7 +399,7 @@ Hvis man bruger `&#60;h6&#62;hey&#60;/h6&#62` sker det ikke noget da siden godt 
 
 Jeg starter med at lave en ny bruger, med denne request.
 
-!!! note "Opret bruger request"
+??? note "Opret bruger request"
 
     ```http linenums="0"
     POST /api/Users/ HTTP/1.1
@@ -457,7 +457,7 @@ Her er dataen for den responce jeg modtager tilbage.
 
 Ved at kigge på den er der et enkelt attribut som hanger min interesse, og det er `role`. Jeg vil gerne prøve at sette dette attribut selv i den `POST` request man laver når man registrerer en ny bruger. Jeg laver derfor denne request med en lidt anden email og password:
 
-!!! note "set role request"
+??? note "set role request"
 
     ```http linenums="0"
     POST /api/Users/ HTTP/1.1
@@ -520,4 +520,4 @@ Her ligner det at serveren har godtaget brugerens rolle som admin. Jeg vil teste
 
 som det kan ses på billedet her har jeg åbnet siden, og jeg brugte den nye admin bruger. Juiceshop giver også achievements for at have gjordt det.
 
-
+#### Del opgave - Basic BFLA

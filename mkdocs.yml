@@ -23,6 +23,10 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.caret
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
+      
 extra:
   generator: false
 

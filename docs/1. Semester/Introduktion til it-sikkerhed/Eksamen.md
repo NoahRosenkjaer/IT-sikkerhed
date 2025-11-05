@@ -18,13 +18,13 @@ Opdelingen vil blive således:
 
 Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 
-- [ ] **Netværk med fokus på OSI, TCP/IP modeller og netværksprotokoller samt (u)sikkerhed i disse.**
+- [ ] **1. Netværk med fokus på OSI, TCP/IP modeller og netværksprotokoller samt (u)sikkerhed i disse.**
     - Forklare om OSI og TCP/IP modellerne.
     - Forklare om HTTP vs. HTTPS.
         - Måske forklare TLS
         - Vis et eksempel med wireshark, før og efter kryptering
 
-- [ ] **Netværk med fokus på trafikmonitorering og skanning samt hvordan dette kan anvendes i arbejdet med sikkerhed.**
+- [ ] **2. Netværk med fokus på trafikmonitorering og skanning samt hvordan dette kan anvendes i arbejdet med sikkerhed.**
     - Forklar trafikmonitorering og skanning.
         - Wireshark
         - Nmap
@@ -34,16 +34,23 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
         - 1x victim machine
     - Demonstrær nmap scanning, og så wireshark samme scanning.
 
-- [ ] **Programmering med database og fokus på database (u)sikkerhed.**
+- [ ] **3. Programmering med database og fokus på database (u)sikkerhed.**
     - Forklar om databaser og database typer, SQL og noSQL
-        - Hvad databaserne er gode til. (Fordele og ulemper) 
+        - Hvad databaserne er gode til. (Fordele og ulemper)
     - Vis hvordan en database kan bruges med programering.
-    - Keylogger programmet kan måske kobles på her.
+        - Lav et lille program som bruger en SQL database.
 
-- [ ] **Programmering med netværk og fokus på sikkerhed i protokoller.**
-    - Demonstrær keylogger programet, som bruger socket biblioteket.
+- [ ] **4. Programmering med netværk og fokus på sikkerhed i protokoller.**
+    - Gennem gang af hvad keyloggeren gør inden jeg dykker ned i koden.
+    - Gennem gå koden
+    - Vis et netværksdiagram
+    - Demonstrær keylogger programet.
+        - Lav et lille netværk med diagram til.
+            - 1x attack machine
+            - 1x router opnsense
+            - 1x victim machine
 
-- [ ] **Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.**
+- [ ] **5. Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.**
     - Forklar vad bash og powershell bruges til (Automation)
         - Man kan bruge det til både red og blue team.
         - Power shell bruger objekter.

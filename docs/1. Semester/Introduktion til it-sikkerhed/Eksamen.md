@@ -46,6 +46,7 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 - [ ] **Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.**
     - Forklar vad bash og powershell bruges til (Automation)
         - Man kan bruge det til både red og blue team.
+        - Power shell bruger objekter.
     - Måske forklar syntax
     - Lav et script i både bash og powershell, som gør det samme, skal være noget med sikkerhed. 
         - password checker.

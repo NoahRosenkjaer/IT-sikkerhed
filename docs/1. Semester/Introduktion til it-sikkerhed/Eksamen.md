@@ -18,7 +18,7 @@ Opdelingen vil blive således:
 
 Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 
-- [ ] **1. Netværk med fokus på OSI, TCP/IP modeller og netværksprotokoller samt (u)sikkerhed i disse.**
+- [X] **1. Netværk med fokus på OSI, TCP/IP modeller og netværksprotokoller samt (u)sikkerhed i disse.**
     - Forklare om OSI og TCP/IP modellerne.
     - Forklare om HTTP vs. HTTPS.
         - Måske forklare TLS

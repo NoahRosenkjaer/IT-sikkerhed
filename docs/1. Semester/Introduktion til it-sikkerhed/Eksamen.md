@@ -24,7 +24,7 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
         - Måske forklare TLS
         - Vis et eksempel med wireshark, før og efter kryptering
 
-- [ ] **2. Netværk med fokus på trafikmonitorering og skanning samt hvordan dette kan anvendes i arbejdet med sikkerhed.**
+- [X] **2. Netværk med fokus på trafikmonitorering og skanning samt hvordan dette kan anvendes i arbejdet med sikkerhed.**
     - Forklar trafikmonitorering og skanning.
         - Wireshark
         - Nmap
@@ -57,3 +57,8 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
     - Måske forklar syntax
     - Lav et script i både bash og powershell, som gør det samme, skal være noget med sikkerhed. 
         - password checker.
+
+
+## Follow ups
+
+1. Læs op på TLS-handshake, SSH til spørgsmål 1

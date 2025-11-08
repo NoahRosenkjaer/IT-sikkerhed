@@ -34,7 +34,7 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
         - 1x victim machine
     - Demonstrær nmap scanning, og så wireshark samme scanning.
 
-- [ ] **3. Programmering med database og fokus på database (u)sikkerhed.**
+- [X] **3. Programmering med database og fokus på database (u)sikkerhed.**
     - Forklar om databaser og database typer, SQL og noSQL
         - Hvad databaserne er gode til. (Fordele og ulemper)
     - Vis hvordan en database kan bruges med programering.
@@ -61,4 +61,5 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 
 ## Follow ups
 
-1. Læs op på TLS-handshake, SSH til spørgsmål 1
+- Læs op på TLS-handshake og SSH til spørgsmål 1
+- Læs op på Relationelle databaser og SQLi til spørgsmål 3

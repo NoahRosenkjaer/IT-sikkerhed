@@ -41,10 +41,10 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
         - Lav et lille program som bruger en SQL database.
 
 - [ ] **4. Programmering med netværk og fokus på sikkerhed i protokoller.**
-    - Gennem gang af hvad keyloggeren gør inden jeg dykker ned i koden.
+    - Gennem gang af hvad programmet gør inden jeg dykker ned i koden.
     - Gennem gå koden
     - Vis et netværksdiagram
-    - Demonstrær keylogger programet.
+    - Demonstrær socket med og uden TLS.
         - Lav et lille netværk med diagram til.
             - 1x attack machine
             - 1x router opnsense

@@ -50,7 +50,7 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
             - 1x router opnsense
             - 1x victim machine
 
-- [ ] **5. Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.**
+- [X] **5. Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.**
     - Forklar vad bash og powershell bruges til (Automation)
         - Man kan bruge det til både red og blue team.
         - Power shell bruger objekter.
@@ -63,3 +63,5 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 
 - Læs op på TLS-handshake og SSH til spørgsmål 1
 - Læs op på Relationelle databaser og SQLi til spørgsmål 3
+- Læs op på TLS-handshake til spørgsmål 4
+- Læs op på powershell til spørgsmål 5

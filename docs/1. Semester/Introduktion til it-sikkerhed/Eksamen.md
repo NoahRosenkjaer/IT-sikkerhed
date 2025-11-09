@@ -40,7 +40,7 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
     - Vis hvordan en database kan bruges med programering.
         - Lav et lille program som bruger en SQL database.
 
-- [ ] **4. Programmering med netværk og fokus på sikkerhed i protokoller.**
+- [X] **4. Programmering med netværk og fokus på sikkerhed i protokoller.**
     - Gennem gang af hvad programmet gør inden jeg dykker ned i koden.
     - Gennem gå koden
     - Vis et netværksdiagram

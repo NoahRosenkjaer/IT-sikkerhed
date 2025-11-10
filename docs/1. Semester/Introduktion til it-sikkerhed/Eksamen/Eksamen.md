@@ -65,3 +65,12 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 - Læs op på Relationelle databaser og SQLi til spørgsmål 3
 - Læs op på TLS-handshake til spørgsmål 4
 - Læs op på powershell til spørgsmål 5
+
+## Powerpoints
+Her er mine powerpoints for spørgsmålene.
+
+1. [Netværk med fokus på OSI, TCP/IP modeller og netværksprotokoller samt (u)sikkerhed i disse.](Noah_ITIS_ES1.pptx)
+1. [Netværk med fokus på trafikmonitorering og skanning samt hvordan dette kan anvendes i arbejdet med sikkerhed.](Noah_ITIS_ES2.pptx)
+1. [Programmering med database og fokus på database (u)sikkerhed.](Noah_ITIS_ES3.pptx)
+1. [Programmering med netværk og fokus på sikkerhed i protokoller.](Noah_ITIS_ES4.pptx)
+1. [Scripting i bash og powershell med fokus på hvordan det kan anvendes i arbejdet med sikkerhed.](Noah_ITIS_ES5.pptx)

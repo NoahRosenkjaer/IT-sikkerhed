@@ -46,6 +46,7 @@
 
 
 Lille webshop, bogbutik
+
 - Digitalisering af virksomheden
     - Online webshop med 100% digitalisering 
 - Fortrolighed af data anvendt i virksomheden

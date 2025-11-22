@@ -33,13 +33,13 @@ Jeg brainstormer med hvad jeg kunne snakke om, i forhold til hvert spørgsmål.
 
 1. Demonstrer hvordan du kan anvende fuzzing til at identificere og udnytte en sårbarhed i en
 webapplikation.
-    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [Fuzzing](https://noahrosenkjaer.github.io/IT-sikkerhed/1.%20Semester/Sikkerhed%20i%20webapplikationer/Uge%2044/Uge43/#opgave-opdage-sarbarheder-med-fuzz-input)
+    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [Fuzzing](../Uge%2044/Uge44.md)
 
 2. Demonstrer hvordan du kan udnytte en adgangskontrolsårbarhed i et API.
-    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [BOLA](https://noahrosenkjaer.github.io/IT-sikkerhed/1.%20Semester/Sikkerhed%20i%20webapplikationer/Uge%2037/Uge37/#opgave-bola-excessive-data-exposure)
+    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [BOLA](../Uge%2037/Uge37.md)
     - Kunne lave opgave 1, 2 og 3 hvis der er tid.
 
 3. Demonstrer hvordan du kan manipulere en applikations tilstand gennem ændring af data, som ikke
 burde være ændringsbare.
-    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [Mass assignment](https://noahrosenkjaer.github.io/IT-sikkerhed/1.%20Semester/Sikkerhed%20i%20webapplikationer/Uge%2045/Uge45/#del-opgave-mass-assignment)
+    - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [Mass assignment](../Uge%2045/Uge45.md)
     - Den handler om at ændre i værider som ikke burde kunne ændres.

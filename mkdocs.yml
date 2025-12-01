@@ -5,7 +5,7 @@ theme:
   logo: images/ITsikkerhedLogoRoundCompressed.png
   favicon: images/ITsikkerhedLogoRoundCompressed.png
   font:
-    text: Lexend #JetBrains Mono
+    text: JetBrains Mono
     code: JetBrains Mono
 
   features:

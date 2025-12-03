@@ -111,6 +111,156 @@ Jeg fandt Excessive Data Exposure på følgende side:
 - https://127.0.0.1:8443/forum
     - Her bare man requester siden, får man andres email og vehicleid.
 
+Her et udsnit af den responce hvor man finder EDE
+
+??? note "Forum EDE"
+
+    ```json linenums="0"
+    {
+        "posts": [{
+            "id": "TJqZyFw5PitMW8w9MRgwtM",
+            "title": "Titel",
+            "content": "Hello from postman",
+            "author": {
+                "nickname": "User C",
+                "email": "user@c.com",
+                "vehicleid": "",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:55:44.496Z"
+            },
+            "comments": [],
+            "authorid": 13,
+            "CreatedAt": "2025-09-29T07:55:44.496Z"
+        }, {
+            "id": "x9oYd5bKN5CQjb6ZXY3pCj",
+            "title": "Titel",
+            "content": "Testing proxy",
+            "author": {
+                "nickname": "User C",
+                "email": "user@c.com",
+                "vehicleid": "",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:54:06.672Z"
+            },
+            "comments": [],
+            "authorid": 13,
+            "CreatedAt": "2025-09-29T07:54:06.672Z"
+        }, {
+            "id": "xMe7VfmLK9X4gXTn2pnEgh",
+            "title": "sldnja",
+            "content": "aodfha",
+            "author": {
+                "nickname": "User F",
+                "email": "user@f.com",
+                "vehicleid": "c0d57f65-60b5-44ce-a287-8f63e646bfc6",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:47:32.25Z"
+            },
+            "comments": [],
+            "authorid": 16,
+            "CreatedAt": "2025-09-29T07:47:32.25Z"
+        }, {
+            "id": "kNWfsvBWakkUL6tV86dmVf",
+            "title": "YEs",
+            "content": "YEs",
+            "author": {
+                "nickname": "User F",
+                "email": "user@f.com",
+                "vehicleid": "c0d57f65-60b5-44ce-a287-8f63e646bfc6",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:45:39.681Z"
+            },
+            "comments": [],
+            "authorid": 16,
+            "CreatedAt": "2025-09-29T07:45:39.681Z"
+        }, {
+            "id": "kTziq3sCcnK95RDT8wbLQW",
+            "title": "Titel",
+            "content": "Content",
+            "author": {
+                "nickname": "User C",
+                "email": "user@c.com",
+                "vehicleid": "",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:36:31.709Z"
+            },
+            "comments": [],
+            "authorid": 13,
+            "CreatedAt": "2025-09-29T07:36:31.709Z"
+        }, {
+            "id": "ZVDn3669NthNc9kxTHdBu8",
+            "title": "Hej med jer",
+            "content": "Er der XSS i dette?",
+            "author": {
+                "nickname": "User C",
+                "email": "user@c.com",
+                "vehicleid": "",
+                "profile_pic_url": "",
+                "created_at": "2025-09-29T07:32:38.974Z"
+            },
+            "comments": [],
+            "authorid": 13,
+            "CreatedAt": "2025-09-29T07:32:38.974Z"
+        }, {
+            "id": "5ZCKT6J4X9n2AHBg5EBXcH",
+            "title": "Title 3",
+            "content": "Hello world 3",
+            "author": {
+                "nickname": "Robot",
+                "email": "robot001@example.com",
+                "vehicleid": "4bae9968-ec7f-4de3-a3a0-ba1b2ab5e5e5",
+                "profile_pic_url": "",
+                "created_at": "2025-09-01T08:10:25.678Z"
+            },
+            "comments": [{
+                "id": "",
+                "content": "test",
+                "CreatedAt": "2025-09-08T10:03:42.828Z",
+                "author": {
+                    "nickname": "user one",
+                    "email": "user1@test.com",
+                    "vehicleid": "7e147d9f-d2f8-432d-899f-429a925198cc",
+                    "profile_pic_url": "",
+                    "created_at": "2025-09-08T10:03:42.828Z"
+                }
+            }],
+            "authorid": 3,
+            "CreatedAt": "2025-09-01T08:10:25.678Z"
+        }, {
+            "id": "FXoGyatPpvkvrBgLePm8ZB",
+            "title": "Title 2",
+            "content": "Hello world 2",
+            "author": {
+                "nickname": "Pogba",
+                "email": "pogba006@example.com",
+                "vehicleid": "cd515c12-0fc1-48ae-8b61-9230b70a845b",
+                "profile_pic_url": "",
+                "created_at": "2025-09-01T08:10:25.676Z"
+            },
+            "comments": [],
+            "authorid": 2,
+            "CreatedAt": "2025-09-01T08:10:25.676Z"
+        }, {
+            "id": "ACUi48NBYBFJmQ2MZuNtFE",
+            "title": "Title 1",
+            "content": "Hello world 1",
+            "author": {
+                "nickname": "Adam",
+                "email": "adam007@example.com",
+                "vehicleid": "f89b5f21-7829-45cb-a650-299a61090378",
+                "profile_pic_url": "",
+                "created_at": "2025-09-01T08:10:25.62Z"
+            },
+            "comments": [],
+            "authorid": 1,
+            "CreatedAt": "2025-09-01T08:10:25.62Z"
+        }],
+        "next_offset": null,
+        "previous_offset": null,
+        "total": 9
+    }
+    ```
+
 ## BOLA med på ukendt bruger.
 
 Når man åbner det forum, kan man fange andres vehicleid.

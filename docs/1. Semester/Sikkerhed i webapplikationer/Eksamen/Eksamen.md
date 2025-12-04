@@ -43,3 +43,10 @@ webapplikation.
 burde være ændringsbare.
     - Til dette spørgsmål vil jeg gerne demonstrere opgaven med [Mass assignment](../Uge%2045/Uge45.md)
     - Den handler om at ændre i værider som ikke burde kunne ændres.
+
+## Powerpoints
+Her er mine powerpoints for spørgsmålene.
+
+1. [Demonstrer hvordan du kan anvende fuzzing til at identificere og udnytte en sårbarhed i en webapplikation.](Noah_WS_ES1.pptx)
+2. [Demonstrer hvordan du kan udnytte en adgangskontrolsårbarhed i et API.](Noah_WS_ES2.pptx)
+3. [Demonstrer hvordan du kan manipulere en applikations tilstand gennem ændring af data, som ikke burde være ændringsbare.](Noah_WS_ES3.pptx)

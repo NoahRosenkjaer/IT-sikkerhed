@@ -15,3 +15,7 @@ Her er en PDF med [eksamensprojektet](SoftwaresikkerhedEksamen.pdf)
 ## skriftlige produkt
 
 Når færdigt, vil det skriftlige produkt blive tilgæneligt her.
+
+## Powerpoint
+
+Når færdigt, vil mit powerpoint blive tilgæneligt her.

@@ -12,10 +12,7 @@ Det skriftlige produkt udarbejdes enten individuelt eller i en gruppe med op til
 
 Her er en PDF med [eksamensprojektet](SoftwaresikkerhedEksamen.pdf)
 
-## skriftlige produkt
-
-Når færdigt, vil det skriftlige produkt blive tilgæneligt her.
-
 ## Powerpoint
+Her er mine powerpoints for spørgsmålene.
 
-Når færdigt, vil mit powerpoint blive tilgæneligt her.
+- [Software Sikkerheds Eksamen](Noah_SS.pptx)

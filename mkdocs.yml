@@ -5,7 +5,7 @@ theme:
   logo: images/ITsikkerhedLogoRoundCompressed.png
   favicon: images/ITsikkerhedLogoRoundCompressed.png
   font:
-    text: JetBrains Mono
+    text: Roboto Serif
     code: JetBrains Mono
 
   features:

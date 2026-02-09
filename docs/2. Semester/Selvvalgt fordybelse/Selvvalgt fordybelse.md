@@ -16,10 +16,11 @@ Fagelementet Rapport og projekt har et omfang på 5 ECTS-point.
 
 ## Prøveform
 
-Prøven er individuel og består af en skriftlig aflevering, i form af en offentlig tilgængelig
-webside (f.eks Gitlab pages), samt en videopræsentation af projektets udbytte.
+Prøven er individuel og består af en [skriftlig aflevering, i form af en offentlig tilgængelig
+webside (f.eks Gitlab pages)](https://noahrosenkjaer.github.io/Valgfag/), samt en videopræsentation af projektets udbytte.
 Videopræsentationen behøver ikke være offentlig tilgængelig, men skal være tilgængelig
 for bedømmere i hele bedømmelsesperioden.
+
 Den skriftlige aflevering skal som minimum indeholde:
 
 - Præsentation af websidens struktur.
@@ -31,7 +32,10 @@ Den skriftlige aflevering skal som minimum indeholde:
     - Refleksioner over opnåede erfaringer fra projektet samt egen
 læringsproces.
 - Referencer til litteratur og kilder i APA format.
+
+
 Videopræsentationen skal som minimum indeholde:
+
 - Præsentation af projektet.
 - Demonstration af projektets resultater, ved den studerendes gennemgang af
 websiden.

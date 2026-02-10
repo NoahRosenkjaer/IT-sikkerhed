@@ -3,7 +3,7 @@
 ## Opgave - Linux file system
 
 !!! note "Opgave beskrivelse"
-    Hvad er der i de forskellige diractories?
+    Hvad er der i de forskellige directories?
 
 |Directory|Purpose|
 |---|---|
